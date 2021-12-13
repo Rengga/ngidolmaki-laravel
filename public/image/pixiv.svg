@@ -1,0 +1,32 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .cls-1, .cls-4 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-4 {
+        stroke: #fff;
+        stroke-width: 4px;
+      }
+    </style>
+    <clipPath id="clip-path" transform="translate(2 2)">
+      <circle class="cls-1" cx="22" cy="22" r="22"/>
+    </clipPath>
+  </defs>
+  <path id="Shape" class="cls-2" d="M31.6,13.4a12.3,12.3,0,0,0-8.1-2.7c-8.5,0-14.2,6.4-14.2,6.4l1.6,2.6s.9,0,.4-1.4a9,9,0,0,1,2.8-3V32.1c-.7.2-1.6.6-1,1.2h4.7c.6-.6-.3-1-.9-1.2V28.2a21.4,21.4,0,0,0,6.6,1.2,12.8,12.8,0,0,0,7.9-2.5,8.2,8.2,0,0,0,3.3-6.7,8.9,8.9,0,0,0-3.1-6.8ZM29.1,25.6a8.2,8.2,0,0,1-5.9,2.2,15,15,0,0,1-6.3-1.2V14a11.4,11.4,0,0,1,6.3-1.9,8.3,8.3,0,0,1,6,2.4,8,8,0,0,1,2.1,5.7,7.4,7.4,0,0,1-2.2,5.4Z" transform="translate(2 2)"/>
+  <g id="Oval">
+    <g class="cls-3">
+      <path id="path_1" data-name="path 1" class="cls-4" d="M22,44A22,22,0,1,0,0,22,21.9,21.9,0,0,0,22,44Z" transform="translate(2 2)"/>
+    </g>
+  </g>
+</svg>

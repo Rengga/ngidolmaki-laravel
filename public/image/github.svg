@@ -1,0 +1,43 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .cls-1, .cls-4 {
+        fill: none;
+      }
+
+      .cls-2 {
+        filter: url(#filter_1);
+      }
+
+      .cls-3 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-4 {
+        stroke: #fff;
+        stroke-width: 4px;
+      }
+
+      .cls-5 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+    </style>
+    <filter id="filter_1" name="filter_1">
+      <feColorMatrix values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0" in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path" transform="translate(2 2)">
+      <circle class="cls-1" cx="22" cy="22" r="22"/>
+    </clipPath>
+  </defs>
+  <g id="github-2" class="cls-2">
+    <g>
+      <g id="Oval-2" data-name="Oval">
+        <g class="cls-3">
+          <path id="path_1" data-name="path 1" class="cls-4" d="M22,44A22,22,0,1,0,0,22,21.9,21.9,0,0,0,22,44Z" transform="translate(2 2)"/>
+        </g>
+      </g>
+      <path id="Shape" class="cls-5" d="M10,22.3A12.3,12.3,0,0,0,18.2,34a.6.6,0,0,0,.8-.6V31.3c-3.3.7-4-1.7-4-1.7a3.6,3.6,0,0,0-1.4-1.8c-1.1-.7.1-.7.1-.7a2.8,2.8,0,0,1,1.9,1.3,2.5,2.5,0,0,0,3.4,1,3.8,3.8,0,0,1,.8-1.7c-2.7-.3-5.5-1.3-5.5-6a4.5,4.5,0,0,1,1.3-3.3,4.5,4.5,0,0,1,.1-3.3s1-.3,3.3,1.3a15.7,15.7,0,0,1,3-.5,15.7,15.7,0,0,1,3,.5c2.3-1.6,3.3-1.3,3.3-1.3a4.5,4.5,0,0,1,.1,3.3,4.5,4.5,0,0,1,1.3,3.3c0,4.7-2.9,5.7-5.5,6A3.3,3.3,0,0,1,25,30v3.4a.6.6,0,0,0,.8.6A12.4,12.4,0,0,0,34,22.3,12.2,12.2,0,0,0,22,10,12.2,12.2,0,0,0,10,22.3Z" transform="translate(2 2)"/>
+    </g>
+  </g>
+</svg>
