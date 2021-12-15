@@ -9,6 +9,14 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 <style>
+    body{
+        background-size: cover;
+        background:#89B5AF no-repeat fixed;
+        padding: 0% 3%;
+    }
+    h1{
+        color: white;
+    }
     .me{
         display: flex;
         width: 100%;
@@ -20,21 +28,27 @@
         
     }
     .me2{
+        background: white;
         display: flex;
         flex-direction: column;
-        border: 3px solid red;
+        border: 3px solid white;
         margin: 10px 10px;
+        border-radius: 10px;
     }
     .me2 a img{
         width: 200px;
         height: 200px;
         object-fit: cover;
+        border-radius: 10px;
     }
 </style>
 <body>
-    <div class="container">
+    @extends('layouts.app')
+    @section('content')
+        <div class="container">
         <h1>Dashboard</h1>
-        <a href="{{url('create')}}" class="btn btn-primary">Tambah Gambar</a>
+        <br>
+        <a href="{{url('create')}}" class="btn btn-primary">Tambah Gambar +</a>
         <div class="me">
            @foreach ($data as $item)
             <div class="me2">
@@ -47,6 +61,8 @@
             @endforeach 
         </div>
     </div>
+    @endsection
+    
 </body>
 </html>
 

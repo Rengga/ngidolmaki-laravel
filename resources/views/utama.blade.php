@@ -8,37 +8,31 @@
 
     <body>
         <div class="container">
-            <div class="navb">
+            <div class="navb" id="navb">
                 <div class="navbar">
                     <nav>
                         <ul id="menuList">
                             <br />
-                            <li><a href="">Home</a></li>
+                            <li><a href="#navb"><b>Home</b></a></li>
                             <br />
-                            <li><a href="">About</a></li>
+                            <li><a href="#me">Link</a></li>
                             <br />
-                            <li><a href="">Gallery</a></li>
+                            <li><a href="#about">About</a></li>
                             <br />
-                            <li>
-                                <a href="" style="text-decoration: line-through"
-                                    >Contact</a
-                                >
+                            <li><a href="#gallery">Gallery</a>
                             </li>
                             <br />
                         </ul>
                         <ul class="menu-2">
-                            <li><a href="">Home</a></li>
-                            <li><a href="">About</a></li>
+                            <li><a href="#navb"><b>Home</b></a></li>
+                            <li><a href="#me">Link</a></li>
                         </ul>
                     </nav>
                     <a href=""><h2 class="logo">ngidolMaki</h2></a>
                     <nav>
                         <ul class="menu-2">
-                            <li><a href="">Gallery</a></li>
-                            <li>
-                                <a href="" style="text-decoration: line-through"
-                                    >Contact</a
-                                >
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#gallery">Gallery</a>
                             </li>
                         </ul>
                     </nav>
@@ -57,51 +51,51 @@
                 <img src="{{ asset('image/gambar.webp') }}" class="imagebg2" />
             </div>
             <div class="col-1">
-                <div class="me">
+                <div class="me" id="me">
                     <div class="row">
                         <div class="row-1">
-                            <a href=""
+                            <a href="https://www.facebook.com/NgidolMaki-100951018672716"
                                 ><img
                                     id="fb"
-                                    src="image/facebook.svg"
+                                    src="{{ asset('image/facebook.svg') }}"
                                     alt=""
                                     style="height: 55px; width: 55px"
                             /></a>
-                            <a href=""
+                            <a href="https://www.instagram.com/ngidolmaki/"
                                 ><img
                                     id="ig"
-                                    src="image/instagram.svg"
+                                    src="{{ asset('image/instagram.svg') }}"
                                     alt=""
                                     style="height: 55px; width: 55px"
                             /></a>
-                            <a href=""
+                            <a href="https://twitter.com/ngidolMaki_"
                                 ><img
                                     id="twit"
-                                    src="image/twitter.svg"
+                                    src="{{ asset('image/twitter.svg') }}"
                                     alt=""
                                     style="height: 55px; width: 55px"
                             /></a>
                         </div>
-                        <img src="image/profil.webp" class="profil" />
+                        <img src="{{ asset('image/profil.webp') }}" class="profil" />
                         <div class="row-1">
-                            <a href=""
+                            <a href="https://github.com/Rengga"
                                 ><img
                                     id="git"
-                                    src="image/github.svg"
+                                    src="{{ asset('image/github.svg') }}"
                                     alt=""
                                     style="height: 55px; width: 55px"
                             /></a>
-                            <a href=""
+                            <a href="https://www.pixiv.net/en/users/13503194"
                                 ><img
                                     id="pix"
-                                    src="image/pixiv.svg"
+                                    src="{{ asset('image/pixiv.svg') }}"
                                     alt=""
                                     style="height: 55px; width: 55px"
                             /></a>
-                            <a href=""
+                            <a href="https://arxist.com/ngidolmaki/"
                                 ><img
                                     id="arx"
-                                    src="image/arxist.svg"
+                                    src="{{ asset('image/arxist.svg') }}"
                                     alt=""
                                     style="height: 55px; width: 55px"
                             /></a>
@@ -109,7 +103,7 @@
                     </div>
                     <h2>ngidolMaki</h2>
                 </div>
-                <div class="about">
+                <div class="about" id="about">
                     <h2>About</h2>
                     <p>
                         anjay lorem ipsum gk jelas pantek mending di sidoarjo
@@ -121,7 +115,7 @@
                         sih, iya donk masa iya iya donk
                     </p>
                 </div>
-                <div class="gallery">
+                <div class="gallery" id="gallery">
                     <h2>Gallery</h2>
                     <div class="row">
                         @yield('row')

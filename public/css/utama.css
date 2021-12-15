@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Courgette&family=Montserrat&display=swap");
 
+html {
+    scroll-behavior: smooth;
+}
 * {
     margin: 0;
     padding: 0;
@@ -7,6 +10,9 @@
 body {
     background: url(../image/bg.webp) no-repeat fixed center;
     background-size: cover;
+}
+body::-webkit-scrollbar {
+    display: none;
 }
 
 .container {
@@ -82,7 +88,7 @@ nav ul li a {
     justify-content: center;
     font-family: "Montserrat", sans-serif;
 }
-.row {
+.col-1 .me .row {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -130,32 +136,44 @@ nav ul li a {
     font-family: "Archivo Narrow", sans-serif;
 }
 .about {
-    text-align: center;
-    padding: 20px 350px;
+    display: flex;
+    height: 250px;
+    padding: 0px 350px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 .about h2 {
-    margin-bottom: 10px;
+    margin: 10px;
 }
+
 .about,
 .gallery {
     background-color: white;
+}
+
+.gallery .row {
+    padding: 0px 300px;
+    flex-direction: row-reverse;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap-reverse;
 }
 .gallery h2 {
     margin-bottom: 10px;
 }
 .gallery .row a img {
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
-    display: flex;
-    justify-content: center;
+    width: 250px;
+    height: 250px;
     margin: 20px 20px;
+    object-fit: cover;
+    border: solid #1db9c3 3px;
 }
 .footer {
     width: 100%;
     height: 20px;
 }
-@media only screen and (max-width: 1230px) {
+@media only screen and (max-width: 1410px) {
     .imagebg2 {
         height: 800px;
     }
@@ -182,12 +200,18 @@ nav ul li a {
     .about {
         padding: 20px 120px;
     }
+
+    .gallery .row {
+        padding: 0px 40px;
+        flex-direction: row-reverse;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
     .gallery .row a img {
         width: 200px;
         height: 200px;
         object-fit: cover;
-        display: flex;
-        justify-content: center;
         margin: 20px 20px;
     }
     .footer {
@@ -221,6 +245,9 @@ nav ul li a {
         display: block;
         margin: 4px 20px;
     }
+    .about {
+        height: auto;
+    }
     .row .profil {
         margin: 2px 8px;
     }
@@ -234,7 +261,14 @@ nav ul li a {
         transition: 0.5s;
     }
     .about {
+        height: auto;
         padding: 20px 50px;
+    }
+    .gallery .row {
+        padding: 0px 20px;
+        flex-direction: row-reverse;
+        display: flex;
+        justify-content: space-evenly;
     }
     .gallery h2 {
         margin-bottom: 0px;
@@ -242,8 +276,6 @@ nav ul li a {
     .gallery .row a img {
         width: 150px;
         height: 150px;
-        display: flex;
-        justify-content: center;
         margin: 5px 5px;
     }
 }
@@ -277,12 +309,17 @@ nav ul li a {
         flex-direction: row;
     }
     .about {
+        height: auto;
         padding: 20px 50px;
+    }
+    .gallery .row {
+        padding: 0px 5px;
+        flex-direction: row-reverse;
+        display: flex;
+        justify-content: space-evenly;
     }
     .gallery .row a img {
         width: 120px;
-        display: flex;
-        justify-content: center;
         margin: 5px 5px;
     }
 }
