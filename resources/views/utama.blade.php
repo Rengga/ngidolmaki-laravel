@@ -106,13 +106,8 @@
                 <div class="about" id="about">
                     <h2>About</h2>
                     <p>
-                        anjay lorem ipsum gk jelas pantek mending di sidoarjo
-                        atau sukodono keqing wangy wangy. Dota enak tapi lostrek
-                        ada momment mamaaa aku di ti. Sebenarnya sih gitu tapi
-                        yang nggak tau juga wicis wicis tai asw bahasa kentut.
-                        hicun sangean nge geh sisan. dua tiga ayam melompat
-                        mending makan tomat, masih enak makan nasi goreng. masak
-                        sih, iya donk masa iya iya donk
+                        Drawing is my hobby, this website displays the works that I have made, 
+                        I hope you like it. If you want to order, you can contact me via Facebook or Instagram above.
                     </p>
                 </div>
                 <div class="gallery" id="gallery">
